@@ -7,6 +7,8 @@
 .container {
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
+  display: flex;
+  flex-wrap: wrap;
 }
 .activity {
   margin: 10px;
@@ -17,26 +19,32 @@
 
 .read {
   background-image: url("img/read.jpg");
+  order: 3;
 }
 
 .cook {
   background-image: url("img/cook.jpg");
+  order: 1;
 }
 
 .code {
   background-image: url("img/code.jpg");
+  order: 6;
 }
 
 .family {
   background-image: url("img/family.jpg");
+  order: 2;
 }
 
 .netflix {
   background-image: url("img/netflix.jpg");
+  order: 4;
 }
 
 .sleep {
   background-image: url("img/sleep.jpg");
+  order: 5;
 }
 
 /* --------------- */
